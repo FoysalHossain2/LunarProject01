@@ -1,0 +1,72 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Roboto: 'Roboto', sans-serif;
+    --Genos: 'Genos', sans-serif;
+}
+
+/* ========== StrategyPart design with css========*/
+
+.StrategyPart {
+    background: url("../../assets/BackgroundStrategy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 300px;
+}
+
+.strategyWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.strategyLeftPart .strategy__title {
+    color: #000;
+    font-family: var(--Roboto);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 137.2%;
+    text-align: center;
+}
+
+.strategy__desc {
+    color: #32046B;
+    font-family: var(--Genos);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 42.5px;
+    letter-spacing: 0.2px;
+    margin-top: 18px;
+    text-align: center;
+    padding-right: 91px;
+}
+
+.strategyBtn {
+    border: none;
+    padding: 30px 76px 30px 36px;
+    border-radius: 25px;
+    background: #7C14FD;
+    box-shadow: 0px 26px 46px 0px rgba(124, 20, 253, 0.35);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: var(--Genos);
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 232px;
+    margin-top: 80px;
+}
+
+.strategyIcon {
+    vertical-align: middle;
+
+} 
+
+.strategyRightPart img {
+    margin-right: -220px;
+
+} 
+
+/* ========== StrategyPart design with css========*/

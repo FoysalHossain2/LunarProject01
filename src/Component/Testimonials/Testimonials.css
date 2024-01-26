@@ -1,0 +1,106 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Roboto: 'Roboto', sans-serif;
+    --Genos: 'Genos', sans-serif;
+}
+
+/* ==============Testimonials design width css============== */
+
+.TestimonialsPart {
+    padding: 200px 0;
+    background-color: var(--secondary-bg-color);
+}
+
+.testimonials__header {
+    text-align: center;
+}
+
+.testimonials__header .testimonials__title  {
+    color: #000;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 137.2%; 
+    margin-bottom: 20px;
+}
+
+.testimonials-CardContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    max-width: 1410px;
+    height: 550px;
+    background-color: #fff;
+} 
+
+.testimonials-CardWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.box {
+    position: absolute;
+    width: 253px;
+    height: 292px;
+    background-color: #FC5A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 165px;
+    margin-top: -174px;
+}
+
+.box::after {
+    position: absolute;
+    content: url("../../assets/quoteLeft.png");
+    margin-top: 297px;
+}
+
+.testimonials__text {
+    color: #32046B;
+    font-family: var(--Genos);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0.2px;
+    padding-left: 526px;
+    padding-right: 95px;
+}
+
+.testimonials__footerText {
+    margin-left: 533px;
+    margin-top: 65px;
+    color: #7C14FD;
+    font-family: var(--Genos);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.btn-tag {
+    margin-left: 1150px;
+    margin-top: 60px;
+}
+
+.leftArrow {
+    border: none;
+    font-size: 25px;
+    background-color: #fff;
+    color: #959EAD;
+}
+
+.rightArrow {
+    border: none;
+    font-size: 25px;
+    background-color: #fff;
+    color: #32046B;
+    padding-left: 35px;
+}
+
+/* ==============Testimonials design width css============== */

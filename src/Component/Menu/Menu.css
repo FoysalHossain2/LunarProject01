@@ -1,0 +1,57 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Roboto: 'Roboto', sans-serif;
+    --Genos: 'Genos', sans-serif;
+}
+  
+
+.navbar {
+    background-color: var(--primary-bg-color);
+    padding: 30px 0;
+    box-shadow: 0px 12px 12px 0px rgb(0 , 0, 0, 0.05);
+    /* backdrop-filter:  blur(8px);
+    -webkit-backdrop-filter: blur(8px); */
+}
+
+.menuWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuWrapperItem .menuLIstItem  {
+    display: flex;
+    align-items: center;
+    column-gap: 49px;
+}
+
+.menuWrapperItem .menuLIstItem .menuItems a {
+    color: #000;
+    font-family: var(--Roboto);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+}
+
+.menuWrapperItem .menuLIstItem .menuWrapperBtn a .menuBtnContact{
+    color: var(--button-color);
+    font-family: var(--Roboto);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+
+    padding: 14px 30px;
+    background-color: #fff;
+    border: 1px solid var(--button-color);
+    border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+}

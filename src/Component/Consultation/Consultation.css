@@ -1,0 +1,73 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Roboto: 'Roboto', sans-serif;
+    --Genos: 'Genos', sans-serif;
+}
+
+/* ============consultation part design with css================= */
+
+.consultation-part {
+    background: url("../../assets/bgCommon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 254px 0;
+}
+
+.consultation__Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .consultation__leftPart {
+    margin-left: px;
+} */
+
+.consultation__text  {
+    color: #FFF;
+    font-family: var(--Roboto);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 128.3%;
+    padding-right: 93px;
+}
+
+.consultation__rightPart {
+    margin-right: -160px;
+}
+
+.consultation-part .consultation__rightPart .inputEmail {
+    max-width:  600px;
+    width: 600px;
+    height: 77px;
+    border-radius: 1000px;
+    background: #FFF;
+    border: none;
+}
+
+.consultation-part .consultation__rightPart #email {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.consultationBtn {
+    max-width:  600px;
+    width: 600px;
+    height: 77px;
+    border-radius: 1000px;
+    background: #32046B;
+    box-shadow: 0px 41px 51px 0px rgba(118, 82, 164, 0.39);
+    margin-top: 20PX;
+
+    color:  #FFF;
+    font-family: var(--Genos);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ============consultation part design with css================= */

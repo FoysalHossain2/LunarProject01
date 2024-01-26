@@ -1,0 +1,140 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Roboto: 'Roboto', sans-serif;
+    --Genos: 'Genos', sans-serif;
+}
+
+
+/* ==========Digital Marketing design with css=================== */
+
+.DigitalMarketing__part {
+    position: relative;
+    background: url("../../assets/bgCommon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 265px 0;
+}
+
+.DigitalM__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.DigitalM__leftPart h3 {
+    color: #FFF;
+    font-family: var(--Roboto);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 128.3%;
+    margin-top: 143px;
+}
+
+span {
+    display: inline-block;
+}
+
+.DigitalM-rightPart {
+    display: flex;
+}
+
+.DM__cardInner {
+    width: 444px;
+    height: 452.207px;
+    border-radius: 50px;
+    background: #9642FF;
+    box-shadow: 0px 69px 114px 0px rgba(124, 20, 253, 0.08);
+    transform: translateX(180px);
+    -webkit-transform: translateX(-11px);
+    -moz-transform: translateX(180px);
+    -ms-transform: translateX(180px);
+    -o-transform: translateX(180px);
+}
+
+.dM__text {
+    color: #FFF;
+    font-family: var(--Genos);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: -1px;
+    padding-left: 35px;
+    margin-top: 46px;
+}
+
+.DMbtn {
+    margin-top: 48px;
+    margin-left: 35px;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    color: #000;
+    font-family: var(--Genos);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+} 
+
+.DMbtn .rightAngle {
+    vertical-align: middle;
+    margin-left: 20px;
+    transition:0.3s;
+    -webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+}
+
+.DMbtn:hover .rightAngle {
+    transform: translateX(30px);
+    -webkit-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
+}
+
+.BStitleCard {
+    color: #FFF;
+    font-family: var(--Genos);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 35px;
+    margin-top: 6px;
+}
+
+.DM__cardInner12 {
+    width: 444px;
+    height: 452.207px;
+    border-radius: 50px;
+    background: #9642FF;
+    box-shadow: 0px 69px 114px 0px rgba(124, 20, 253, 0.08);
+    transform: translateX(280px);
+    -webkit-transform: translateX(8px);
+    -moz-transform: translateX(280px);
+    -ms-transform: translateX(280px);
+    -o-transform: translateX(280px);
+}
+
+.BStitleCard12 {
+    color: #FFF;
+    font-family: var(--Genos);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 35px;
+    margin-top: 6px;
+    padding-right: 33px;
+}
+
+/* ==========Digital Marketing design with css=================== */
